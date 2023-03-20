@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es" data-dark>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-dark>
+    <header class="header">
+      <a class="alfrdo" href="#">Alfredo</a>
+
+      <aside class="panel">
+        <nav class="menu">
+          <a href="#">Inicio</a>
+          <a href="#seccion2">Habilidades</a>
+          <a href="#seccion3">Proyectos</a>
+          <a href="#seccion4">Contacto</a>
+        </nav>
+      </aside>
+    </header>
+    <button class="panel-btn hamburger hamburger--vortex" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <main>
+      <section id="seccion1" class="section home-perfil">
+        <h1 class="home__title">
+          Hola, Soy Alfredo <br />
+          Programador <br />
+          Base en Panamá <br />
+        </h1>
+        <div class="home__main">
+          <div class="home__perfil">
+            <img src="assets/img/perfil.png" alt="home perfil" />
+          </div>
+
+          <ul class="home__social">
+            <a
+              href="https://www.linkedin.com/in/maicol-alfredo-7aa0a9126/"
+              target="_blank"
+              class="home__social-link"
+              data-dark
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+
+            <a
+              href="https://github.com/MichaelAlfredo"
+              target="_blank"
+              class="home__social-link"
+              data-dark
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+      </section>
+      <section id="seccion2" class="section">
+        <h2 class="section-title">Habilidades</h2>
+
+        <div class="skills">
+          <div class="skills__data">
+            <div class="skills__blob">
+              <img src="assets/img/html-1.svg" alt="skills image" />
+            </div>
+
+            <h3 class="skills__name">HTML</h3>
+            <span class="skills__subtitle">Intermedio</span>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__blob">
+              <img src="assets/img/css-3.svg" alt="skills image" />
+            </div>
+
+            <h3 class="skills__name">CSS</h3>
+            <span class="skills__subtitle">Intermedio</span>
+          </div>
+          <div class="skills__data">
+            <div class="skills__blob">
+              <img src="assets/img/logo-javascript.svg" alt="skills image" />
+            </div>
+
+            <h3 class="skills__name">JavaScript</h3>
+            <span class="skills__subtitle">Basico</span>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__blob">
+              <img src="assets/img/react-2.svg" alt="skills image" />
+            </div>
+
+            <h3 class="skills__name">React</h3>
+            <span class="skills__subtitle">Basico</span>
+          </div>
+          <div class="skills__data">
+            <div class="skills__blob">
+              <img src="assets/img/git-icon.svg" alt="skills image" />
+            </div>
+
+            <h3 class="skills__name">Git</h3>
+            <span class="skills__subtitle">Basico</span>
+          </div>
+          <div class="skills__data">
+            <div class="skills__blob">
+              <img src="assets/img/terminal-comand.svg" alt="skills image" />
+            </div>
+
+            <h3 class="skills__name">Terminal de Comando</h3>
+            <span class="skills__subtitle">Basico</span>
+          </div>
+        </div>
+      </section>
+      <section id="seccion3" class="section">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects">
+          <div class="projects__data">
+            <div class="projects__blob">
+              <img src="assets/img/project1.jpg" alt="PortFolio" />
+            </div>
+
+            <h3 class="projects__name">PortFolio</h3>
+          </div>
+          <div class="projects__data">
+            <div class="projects__blob">
+              <img src="assets/img/project2.jpg" alt="PortFolio" />
+            </div>
+
+            <a
+              href="https://michaelalfredo.github.io/project_crud/"
+              class="projects__name"
+              target="_blank"
+              >CRUD</a
+            >
+          </div>
+          <div class="projects__data">
+            <div class="projects__blob">
+              <img src="assets/img/project3.jpg" alt="PortFolio" />
+            </div>
+
+            <a
+              href="https://michaelalfredo.github.io/projects-alf/"
+              class="projects__name"
+              target="_blank"
+              rel="noopener"
+              >+12 Projectos</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="seccion4" class="section">
+        <h2 class="section-title">Contacto</h2>
+        <form class="contact-form">
+          <legend>Envianos tus comentarios</legend>
+          <input
+            type="text"
+            name="name"
+            placeholder="Escribe tu nombre"
+            title="Nombre solo acepta letras y espacio en blanco"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Escribe tu correo"
+            title="Email incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            required
+          />
+          <input
+            type="text "
+            name="subject"
+            placeholder="Asunto a tratar"
+            title="El asunto es requerido"
+            required
+          />
+          <textarea
+            name="comments"
+            cols="50"
+            rows="5"
+            placeholder="Escribe tus comentarios"
+            title="Tu comentario no debe exceder los 255 caracteres"
+            data-pattern="^.{1,255}$"
+            required
+          ></textarea>
+          <input type="submit" value="Enviar" />
+          <div class="contact-form-loader none">
+            <img src="assets/img/loader.svg" alt="Cargando" />
+          </div>
+          <div class="contact-form-response none">
+            <p>Los datos han sido enviados</p>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+
+    <bottom class="scroll-top-btn hidden">&#11014;</bottom>
+    <button class="dark-theme-btn">🌙</button>
+    <script src="assets/js/main.js" type="module"></script>
+  </body>
+</html>
